@@ -2,7 +2,7 @@
   "name": "portfolio-cv",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://sToor16.github.io/portfolio",
+  "homepage" : "http://sToor16.github.io/portfolio-cv",
   "dependencies": {
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
