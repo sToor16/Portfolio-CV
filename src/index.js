@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-import 'w3-css'
+import 'w3-css';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 

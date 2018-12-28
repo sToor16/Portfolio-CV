@@ -1,0 +1,22 @@
+.parcel-delivery-app-container{
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    width: 70%;
+    margin: 0.7rem auto auto auto;
+}
+
+.website-images{
+    width:70%;
+    margin: auto;
+}
+
+.picture-size{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}

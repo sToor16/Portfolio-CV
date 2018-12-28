@@ -1,0 +1,16 @@
+.project-name{
+    margin-top: 2rem;
+    color: rgba(46, 49, 49, 1);
+}
+
+.project-description-container{
+    width: 80%;
+    margin: auto;
+    color: rgba(108, 122, 137, 1);
+}
+
+.website-link-styles{
+    color: rgb(41, 241, 195);
+    text-decoration: none;
+    margin-bottom: 2rem;
+}

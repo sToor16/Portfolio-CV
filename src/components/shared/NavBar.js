@@ -13,7 +13,7 @@ export function NavBar() {
                         <Link to="/aboutme" className="w3-button w3-block">About Me</Link>
                     </div>
                     <div className="w3-col s3">
-                        <Link to="/aboutme" className="w3-button w3-block">Projects</Link>
+                        <Link to="/projects" className="w3-button w3-block">Projects</Link>
                     </div>
                     <div className="w3-col s3">
                         <Link to="/contact" className="w3-button w3-block">Contact</Link>
