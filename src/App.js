@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Route} from "react-router-dom";
-import LandingPage from "./components/LandingPage";
+import LandingPage from "./components/landing-page-components/LandingPage";
 
 import './App.css';
 import {NavBar} from "./components/shared/NavBar";
 import AboutMe from "./components/AboutMe";
-import Projects from "./components/Projects";
+import Projects from "./components/projects-components/Projects";
 import Contact from "./components/Contact";
-
 
 class App extends Component {
   render() {
