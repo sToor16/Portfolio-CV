@@ -1,6 +1,6 @@
 import React  from 'react';
 import './nameAndPicture.css'
-import myPicutre from '../../images/myPicure.png'
+import myPicutre from './images/myPicure.png'
 
 export function NameAndPicture() {
     return (

@@ -12,23 +12,3 @@
     width: 170px;
     border-radius: 50%;
 }
-
-.w3-container{
-    width: 70%;
-    margin: auto;
-    padding: 1rem !important;
-}
-
-.w3-half{
-    margin-top: 2rem;
-    padding: 0 3rem 0 3rem;
-}
-
-.left-half{
-    text-align: right;
-    border-right: 3px solid black;
-}
-
-.right-half{
-
-}

@@ -1,0 +1,39 @@
+.w3-container{
+    width: 70%;
+    margin: auto;
+    padding: 1rem !important;
+}
+
+.w3-half{
+    margin-top: 2rem;
+    padding: 0 3rem 0 3rem;
+}
+
+.left-half{
+    text-align: right;
+    border-right: 3px solid black;
+}
+
+.right-half{
+
+}
+
+.section-heading{
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.subsection-heading{
+    margin-top: 1rem;
+    font-weight: bold;
+    color: rgba(108, 122, 137, 1);
+}
+
+.subsection-content{
+    margin-top: 0.2rem;
+    color: rgba(108, 122, 137, 1);
+}
+
+.section-heading-margin{
+    margin-top: 2rem;
+}

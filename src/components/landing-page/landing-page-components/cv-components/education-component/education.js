@@ -12,7 +12,8 @@ export function Education() {
                 <div className="subsection-heading">
                     The University of Texas at Arlington
                 </div>
-                <div className="subsection-content">MS (cs)<br></br>May 2019
+                <div className="subsection-content">Master of Science (cs)<br></br>
+                    3.88<br></br>May 2019
                 </div>
             </div>
             <div className="courses">
@@ -26,6 +27,14 @@ export function Education() {
                     Secure Programming<br></br>
                     Software Maintainence and Quality Assurance
 
+                </div>
+            </div>
+            <div>
+                <div className="subsection-heading">
+                    Chaudhary Devilal University
+                </div>
+                <div className="subsection-content">Bachelor of Science (cs)<br></br>
+                    7.0/10<br></br>2016
                 </div>
             </div>
         </div>
