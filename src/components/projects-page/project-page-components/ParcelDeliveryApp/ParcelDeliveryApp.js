@@ -41,16 +41,16 @@ class ParcelDeliveryApp extends Component {
                 </div><br></br><br></br>
                 <div className="website-images w3-center w3-row">
                     <div className="w3-quarter">
-                        <img className={"picture-size"} src={picture1}></img>
+                        <img className={"picture-size"} src={picture1} alt={"app screenshot"}></img>
                     </div>
                     <div className="w3-quarter">
-                        <img className={"picture-size"} src={picture2}></img>
+                        <img className={"picture-size"} src={picture2} alt={"app screenshot"}></img>
                     </div>
                     <div className="w3-quarter">
-                        <img className={"picture-size"} src={picture3}></img>
+                        <img className={"picture-size"} src={picture3} alt={"app screenshot"}></img>
                     </div>
                     <div className="w3-quarter">
-                        <img className={"picture-size"} src={picture1}></img>
+                        <img className={"picture-size"} src={picture1} alt={"app screenshot"}></img>
                     </div>
                 </div>
             </div>

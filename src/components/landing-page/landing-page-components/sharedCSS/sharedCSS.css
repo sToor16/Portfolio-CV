@@ -1,0 +1,15 @@
+.section-heading{
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.subsection-heading{
+    margin-top: 1rem;
+    font-weight: bold;
+    color: rgba(108, 122, 137, 1);
+}
+
+.subsection-content{
+    margin-top: 0.2rem;
+    color: rgba(108, 122, 137, 1);
+}
