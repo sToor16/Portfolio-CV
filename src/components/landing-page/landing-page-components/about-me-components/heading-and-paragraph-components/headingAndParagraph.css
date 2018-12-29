@@ -1,0 +1,18 @@
+.about-me-heading{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.about-me-paragraph{
+    width: 70%;
+    margin: auto;
+    font-weight: bold;
+}
+
+hr {
+    width: 300px;
+    margin-left: auto!important;
+    margin-right: auto!important;
+    height: 1.5px!important;
+    background-color: white;
+}
