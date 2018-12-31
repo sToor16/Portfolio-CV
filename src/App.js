@@ -7,6 +7,11 @@ import {NavBar} from "./components/shared/NavBar";
 import Projects from "./components/projects-page/Projects";
 import Contact from "./components/contact-page/Contact";
 
+import { library } from '@fortawesome/fontawesome-svg-core';
+import {faPhoneVolume, faEnvelope, faAddressCard} from '@fortawesome/free-solid-svg-icons'
+
+library.add(faEnvelope, faPhoneVolume,faAddressCard)
+
 class App extends Component {
   render() {
     return (
