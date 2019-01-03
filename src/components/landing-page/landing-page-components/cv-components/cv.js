@@ -4,6 +4,7 @@ import {Education} from "./education-component/education";
 import {Languages} from "./languages-components/languages";
 import {SocialLinks} from "./soical-links-components/socialLinks";
 import {Skills} from "./skills-component/skills";
+import './sharedCSS/responsive.css'
 
 class CV extends Component {
     render() {

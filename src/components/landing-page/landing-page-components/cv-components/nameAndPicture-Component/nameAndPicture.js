@@ -1,5 +1,6 @@
 import React  from 'react';
 import './nameAndPicture.css'
+import '../sharedCSS/responsive.css'
 import myPicutre from './images/myPicure.png'
 
 export function NameAndPicture() {
