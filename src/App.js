@@ -13,19 +13,19 @@ import {faPhoneVolume, faEnvelope, faAddressCard} from '@fortawesome/free-solid-
 library.add(faEnvelope, faPhoneVolume,faAddressCard)
 
 class App extends Component {
-  render() {
-    return (
-        <BrowserRouter>
-            <div>
-                <NavBar/>
-                <Route exact path="" component={LandingPage}/>
-                <Route exact path="/portfolio-cv/" component={LandingPage}/>
-                <Route exact path="/projects" component={Projects}/>
-                <Route exact path="/contact" component={Contact}/>
-            </div>
-        </BrowserRouter>
-    );
-  }
+    render() {
+        return (
+            <BrowserRouter>
+                <div>
+                    <NavBar/>
+                    <Route exact path="" component={LandingPage}/>
+                    <Route exact path="/portfolio-cv/" component={LandingPage}/>
+                    <Route exact path="/projects" component={Projects}/>
+                    <Route exact path="/contact" component={Contact}/>
+                </div>
+            </BrowserRouter>
+        );
+    }
 }
 
 export default App;
