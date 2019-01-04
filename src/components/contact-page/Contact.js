@@ -3,7 +3,7 @@ import picture from './images/contact_page_image.jpg'
 import './contact.css';
 import './responsive.css';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 class Contact extends Component {
     render() {

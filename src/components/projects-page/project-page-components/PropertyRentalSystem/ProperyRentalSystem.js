@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 class ProperyRentalSystem extends Component {
     render() {
         return (
-            <div className="Propery-rental-system-container">
+            <div className="alternate-background-two project-container bottom-border">
                 <h1 className="w3-center project-name">
                     Property Rental System
                 </h1>
@@ -13,7 +14,7 @@ class ProperyRentalSystem extends Component {
                         properties all around the world. Google maps were integrated to provide users on the spot
                         location of the property.
                     </p><br></br><br></br>
-                    <a className="website-link-styles" href="https://eazy-shipping.herokuapp.com/" target="_blank">
+                    <a className="website-link-styles w3-btn" href="https://eazy-shipping.herokuapp.com/" target="_blank">
                         View Website
                     </a><br></br><br></br>
                     <p className="focus-paragraph">

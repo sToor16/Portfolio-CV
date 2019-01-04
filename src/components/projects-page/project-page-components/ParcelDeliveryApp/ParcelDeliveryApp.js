@@ -1,14 +1,11 @@
 import React, { Component } from 'react';
 import './ParcelDeliveryApp.css';
-import '../SharedCSS/sharedStyles.css'
-import picture1 from './images/picture1.png';
-import picture2 from './images/picture2.png';
-import picture3 from './images/picture3.png';
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 class ParcelDeliveryApp extends Component {
     render() {
         return (
-            <div className="parcel-delivery-app-container">
+            <div className="alternate-background-one project-container top-border bottom-border">
                 <h1 className="w3-center project-name">
                     Parcel Delivery Web App
                 </h1>
@@ -21,37 +18,40 @@ class ParcelDeliveryApp extends Component {
                         customers to buy labels, insure packages and track packages. The first version of the website
                         was launched in December 2018 and I am constantly working to add more features
                         and improve the existing code base.
-                    </p><br></br><br></br>
-                    <a className="website-link-styles" href="https://eazy-shipping.herokuapp.com/" target="_blank">
+                    </p><br/><br/>
+                    <a className="website-link-styles w3-btn" href="https://eazy-shipping.herokuapp.com/" target="_blank">
                         View Website
-                    </a><br></br><br></br><br></br>
+                    </a><br/><br/><br/>
                 </div>
                 <div className="website-points">
                     <ul>
-                        <li>Integrated with social media websites such as facebook and google to provide users
-                            with an option to use their social media accounts to login</li>
-                        <li>Integrated multiple payments gateways such as Paypay and Authorize.net</li>
-                        <li>Integrated with other API's like address verification, parcel tracking, geolocation, etc.</li>
-                        <li>Used Spring Security and OAuth2 for user authorization</li>
-                        <li>Designed the the entire UI and implemented it using HTML, Java Script and various
-                            CSS libraries such as Bootstrap, W3-Schools CSS and Materialize</li>
-                        <li>Used Java as the backend of the web app.</li>
-                        <li></li>
+                        <li>
+                            <FontAwesomeIcon className="icon-style-projects-page" icon="check-circle" />
+                            Integrated with social media websites such as facebook and google to provide users
+                            with an option to use their social media accounts to login
+                        </li>
+                        <li>
+                            <FontAwesomeIcon className="icon-style-projects-page" icon="check-circle" />
+                            Integrated multiple payments gateways such as Paypay and Authorize.net
+                        </li>
+                        <li>
+                            <FontAwesomeIcon className="icon-style-projects-page" icon="check-circle" />
+                            Integrated with other API's like address verification, parcel tracking, geolocation, etc.
+                        </li>
+                        <li>
+                            <FontAwesomeIcon className="icon-style-projects-page" icon="check-circle" />
+                            Used Spring Security and OAuth2 for user authorization
+                        </li>
+                        <li>
+                            <FontAwesomeIcon className="icon-style-projects-page" icon="check-circle" />
+                            Designed the the entire UI and implemented it using HTML, Java Script and various
+                            CSS libraries such as Bootstrap, W3-Schools CSS and Materialize
+                        </li>
+                        <li>
+                            <FontAwesomeIcon className="icon-style-projects-page" icon="check-circle" />
+                            Used Java as the backend of the web app.
+                        </li>
                     </ul>
-                </div><br></br><br></br>
-                <div className="website-images w3-center w3-row">
-                    <div className="w3-quarter">
-                        <img className={"picture-size"} src={picture1} alt={"app screenshot"}></img>
-                    </div>
-                    <div className="w3-quarter">
-                        <img className={"picture-size"} src={picture2} alt={"app screenshot"}></img>
-                    </div>
-                    <div className="w3-quarter">
-                        <img className={"picture-size"} src={picture3} alt={"app screenshot"}></img>
-                    </div>
-                    <div className="w3-quarter">
-                        <img className={"picture-size"} src={picture1} alt={"app screenshot"}></img>
-                    </div>
                 </div>
             </div>
         );

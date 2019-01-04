@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 class UniversityBazaarSystem extends Component {
     render() {
         return (
-            <div className="university-bazaar-system-container">
+            <div className="alternate-background-two project-container bottom-border">
                 <h1 className="w3-center project-name">
                     University Bazaar System
                 </h1>
@@ -18,11 +19,18 @@ class UniversityBazaarSystem extends Component {
                     </p><br></br><br></br>
                 </div>
                 <div className="website-points">
-                    <ul>
-                        <li>Mobile application was designed for Android platform using Java.</li>
-                        <li>Registration with the application was restricted only to person's who had university ID's.</li>
-                        <li>Application had the functionality to make announcements, etc.</li>
-                    </ul>
+                    <span className="bullet-point-style">
+                        <FontAwesomeIcon className="icon-style-projects-page" icon="check-circle" />
+                        Mobile application was designed for Android platform using Java.
+                    </span><br/>
+                    <span className="bullet-point-style">
+                        <FontAwesomeIcon className="icon-style-projects-page" icon="check-circle" />
+                        Registration with the application was restricted only to person's who had university ID's.
+                    </span><br/>
+                    <span className="bullet-point-style">
+                        <FontAwesomeIcon className="icon-style-projects-page" icon="check-circle" />
+                        Application had the functionality to make announcements, etc.
+                    </span>
                 </div><br></br><br></br>
             </div>
         );

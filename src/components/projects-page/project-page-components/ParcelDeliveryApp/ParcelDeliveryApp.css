@@ -1,13 +1,5 @@
-.parcel-delivery-app-container{
-}
-
-ul {
-    list-style-type: none;
-}
-
-li {
-    width: 70%;
-    margin: 0.7rem auto auto auto;
+.top-border{
+    border-top: 5px solid rgba(241, 169, 160, 0.7);
 }
 
 .website-images{
@@ -19,4 +11,11 @@ li {
     border-radius: 50%;
     height: 200px;
     width: 200px;
+}
+
+@media only screen and (max-width: 450px) {
+    li {
+        width: 95%;
+        margin: auto auto auto auto;
+    }
 }
