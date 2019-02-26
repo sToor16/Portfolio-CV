@@ -16,7 +16,7 @@ class UniversityBazaarSystem extends Component {
                         The main focus of professor Khalili was to develop software using Agile Methodologies.
                         The project was divided into five sprints and completed along with four other team members. Through this project, I learned a lot of non-technical aspects such
                         as how to handle miss communication, soft skills, Daily Stand Up meetings, etc.
-                    </p><br></br><br></br>
+                    </p><br/><br/>
                 </div>
                 <div className="website-points">
                     <span className="bullet-point-style">
@@ -31,7 +31,8 @@ class UniversityBazaarSystem extends Component {
                         <FontAwesomeIcon className="icon-style-projects-page" icon="check-circle" />
                         Application had the functionality to make announcements, etc.
                     </span>
-                </div><br></br><br></br>
+                </div>
+                <br/><br/>
             </div>
         );
     }

@@ -19,39 +19,37 @@ class ParcelDeliveryApp extends Component {
                         was launched in December 2018 and I am constantly working to add more features
                         and improve the existing code base.
                     </p><br/><br/>
-                    <a className="website-link-styles w3-btn" href="https://eazy-shipping.herokuapp.com/" target="_blank">
+                    <a className="website-link-styles w3-btn" href="https://www.parcelsky.com/" target="_blank">
                         View Website
                     </a><br/><br/><br/>
                 </div>
                 <div className="website-points">
-                    <ul>
-                        <li>
-                            <FontAwesomeIcon className="icon-style-projects-page" icon="check-circle" />
-                            Integrated with social media websites such as facebook and google to provide users
+                    <span className="bullet-point-style">
+                        <FontAwesomeIcon className="icon-style-projects-page" icon="check-circle" />
+                        Integrated with social media websites such as facebook and google to provide users
                             with an option to use their social media accounts to login
-                        </li>
-                        <li>
-                            <FontAwesomeIcon className="icon-style-projects-page" icon="check-circle" />
+                    </span><br/>
+                    <span className="bullet-point-style">
+                        <FontAwesomeIcon className="icon-style-projects-page" icon="check-circle" />
                             Integrated multiple payments gateways such as Paypay and Authorize.net
-                        </li>
-                        <li>
-                            <FontAwesomeIcon className="icon-style-projects-page" icon="check-circle" />
+                    </span><br/>
+                    <span className="bullet-point-style">
+                        <FontAwesomeIcon className="icon-style-projects-page" icon="check-circle" />
                             Integrated with other API's like address verification, parcel tracking, geolocation, etc.
-                        </li>
-                        <li>
-                            <FontAwesomeIcon className="icon-style-projects-page" icon="check-circle" />
-                            Used Spring Security and OAuth2 for user authorization
-                        </li>
-                        <li>
-                            <FontAwesomeIcon className="icon-style-projects-page" icon="check-circle" />
-                            Designed the the entire UI and implemented it using HTML, Java Script and various
+                    </span><br/>
+                    <span className="bullet-point-style">
+                        <FontAwesomeIcon className="icon-style-projects-page" icon="check-circle" />
+                        Used Spring Security and OAuth2 for user authorization
+                    </span><br/>
+                    <span className="bullet-point-style">
+                        <FontAwesomeIcon className="icon-style-projects-page" icon="check-circle" />
+                        Designed the the entire UI and implemented it using HTML, Java Script and various
                             CSS libraries such as Bootstrap, W3-Schools CSS and Materialize
-                        </li>
-                        <li>
-                            <FontAwesomeIcon className="icon-style-projects-page" icon="check-circle" />
-                            Used Java as the backend of the web app.
-                        </li>
-                    </ul>
+                    </span><br/>
+                    <span className="bullet-point-style">
+                        <FontAwesomeIcon className="icon-style-projects-page" icon="check-circle" />
+                        Used Java as the backend of the web app.
+                    </span><br/><br/>
                 </div>
             </div>
         );

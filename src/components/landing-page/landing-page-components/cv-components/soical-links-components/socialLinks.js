@@ -5,7 +5,7 @@ export function SocialLinks() {
     return (
         <div>
             <div className="section-heading section-heading-margin">
-                Links
+                LINKS
             </div>
             <div>
                 <div>
@@ -27,6 +27,7 @@ export function SocialLinks() {
                     </a>
                 </div><br></br>
             </div>
+
         </div>
     );
 }

@@ -18,22 +18,21 @@ class InventoryManagementSystem extends Component {
                     </p><br></br>
                 </div>
                 <div className="website-points">
-                    <ul>
-                        <li>
-                            <FontAwesomeIcon className="icon-style-projects-page" icon="check-circle" />
-                            The web app was designed using Microsoft's ASP.net framework and mobile application was
+                    <span className="bullet-point-style">
+                        <FontAwesomeIcon className="icon-style-projects-page" icon="check-circle" />
+                        The web app was designed using Microsoft's ASP.net framework and mobile application was
                             designed using React Native. The content of web and mobile app was synchronized.
-                        </li>
-                        <li>
-                            <FontAwesomeIcon className="icon-style-projects-page" icon="check-circle" />
-                            Web application was deployed on AWS Bean Stalk.
-                        </li>
-                        <li>
-                            <FontAwesomeIcon className="icon-style-projects-page" icon="check-circle" />
-                            REST API was written in Node.JS to fetch data Mobile app and deployed on AWS Lambda.
-                        </li>
-                    </ul>
-                </div><br></br><br></br>
+                    </span><br/>
+                    <span className="bullet-point-style">
+                        <FontAwesomeIcon className="icon-style-projects-page" icon="check-circle" />
+                        Web application was deployed on AWS Bean Stalk.
+                    </span><br/>
+                    <span className="bullet-point-style">
+                        <FontAwesomeIcon className="icon-style-projects-page" icon="check-circle" />
+                        REST API was written in Node.JS to fetch data Mobile app and deployed on AWS Lambda.
+                    </span>
+                </div>
+                <br/><br/>
             </div>
         );
     }
