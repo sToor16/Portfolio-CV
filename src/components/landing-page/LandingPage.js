@@ -7,7 +7,7 @@ class LandingPage extends Component {
         return (
             <div>
                 <CV/>
-                <AboutMe/>
+                {/*<AboutMe/>*/}
             </div>
         );
     }
